@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Simon Game</h1>
+    <section id="plate">
+        <div id="one"></div>
+        <div id="two"></div>
+        <div id="three"></div>
+        <div id="four"></div>
+        <div id="handler">
+            <p id="label">Level 01</p>
+            <div class="buttons">
+                <button id="start" class="start"></button>
+                <button id="strict" class="disabled"></button>
+                <br>
+                <p id="start-label" class="label">start</p>
+                <p class="label">strict</p>
+            </div>      
+        </div>
+    </section>
+    <audio id="sound-one" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+    <audio id="sound-two" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+    <audio id="sound-three" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+    <audio id="sound-four" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+    <script src="main.js"></script>
+</body>
+</html>
